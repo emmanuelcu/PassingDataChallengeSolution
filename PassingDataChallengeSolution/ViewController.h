@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController <ViewControllerDelegate, UITextFieldDelegate>
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 
 @end

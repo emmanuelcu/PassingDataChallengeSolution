@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -22,6 +23,31 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+-(void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    if ([sender isKindOfClass:[UIButton class]]) {
+        if ([segue.destinationViewController isKindOfClass:[DetailViewController class]]) {
+            DetailViewController *DetailVC =segue.destinationViewController;
+            DetailVC.informationFromTextField = self.textField.text;
+            DetailVC.delegate = self;
+        }
+    }
+}
+
+#pragma mark - ViewControllerDelegate
+
+-(void)didUpdateText:(NSString *) text{
+    
+    self.textField.text = text;
+
+}
+
+#pragma mark - UITextFieldDelegate
+
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self.textField resignFirstResponder];
+    return YES;
 }
 
 @end

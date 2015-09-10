@@ -14,6 +14,7 @@
 		2F24DE5C1B87C6F300675FB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F24DE5B1B87C6F300675FB9 /* Images.xcassets */; };
 		2F24DE5F1B87C6F300675FB9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F24DE5D1B87C6F300675FB9 /* LaunchScreen.xib */; };
 		2F24DE6B1B87C6F300675FB9 /* PassingDataChallengeSolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24DE6A1B87C6F300675FB9 /* PassingDataChallengeSolutionTests.m */; };
+		2F24DE761B87C84C00675FB9 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F24DE751B87C84C00675FB9 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2F24DE641B87C6F300675FB9 /* PassingDataChallengeSolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassingDataChallengeSolutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F24DE691B87C6F300675FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F24DE6A1B87C6F300675FB9 /* PassingDataChallengeSolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassingDataChallengeSolutionTests.m; sourceTree = "<group>"; };
+		2F24DE741B87C84C00675FB9 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		2F24DE751B87C84C00675FB9 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				2F24DE551B87C6F300675FB9 /* ViewController.h */,
 				2F24DE561B87C6F300675FB9 /* ViewController.m */,
 				2F24DE581B87C6F300675FB9 /* Main.storyboard */,
+				2F24DE741B87C84C00675FB9 /* DetailViewController.h */,
+				2F24DE751B87C84C00675FB9 /* DetailViewController.m */,
 				2F24DE5B1B87C6F300675FB9 /* Images.xcassets */,
 				2F24DE5D1B87C6F300675FB9 /* LaunchScreen.xib */,
 				2F24DE4E1B87C6F300675FB9 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				2F24DE571B87C6F300675FB9 /* ViewController.m in Sources */,
 				2F24DE541B87C6F300675FB9 /* AppDelegate.m in Sources */,
 				2F24DE511B87C6F300675FB9 /* main.m in Sources */,
+				2F24DE761B87C84C00675FB9 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
